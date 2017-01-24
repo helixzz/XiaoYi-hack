@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Yi hack</title>
+</head>
+<body>
+  <h1>Yi HTTP Server</h1>
+  <p>This Yi is powered by a custom firmware. See <a href="https://github.com/fritz-smh/yi-hack">https://github.com/fritz-smh/yi-hack</a> for more informations</a>.</p>
+  <h2>RTSP stream channels</h2>
+  <p>This camera IP is <span id="ip"></span></p>
+  <ul>
+    <li><a id="ch0_0" href="">High definition video stream</a></li>
+    <li><a id="ch0_1" href="">Low definition video stream</a></li>
+    <li><a id="ch0_3" href="">Audio stream</a></li>
+  </ul>
+  <h2>API</h2>
+  <ul>
+    <li><strong><a href="/motion">GET /motion</a></strong> : if a motion has been detected in the last minute, display the filename. Else, display nothing. Example of filename : <em>record/2016Y03M08D22H/20M00S.mp4</em></li>
+  </ul>
+  <h2>Record files</h2>
+  <ul>
+    <li><a href="/record/">Click here to access the record files.</a></li>
+  </ul>
+  <h2>Software and hardware informations</h2>
+  <pre>

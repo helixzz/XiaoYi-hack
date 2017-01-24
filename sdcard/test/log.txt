@@ -1,0 +1,157 @@
+Starting to log...
+Hardware version informations : 
+    hwplatform=2
+Software version informations : 
+    [sys]
+    version=1.8.6.1Q_201607271501
+    [kernel]
+    version=3-0.8
+    provider=1
+    devtype=1
+Firmware letter is : 'Q'
+WARNING : I don't know which RTSP binary version is compliant with your firmware! I will try to use the M...
+The RTSP server binary version which will be used is the 'M'
+The HTTP server binary version which will be used is the 'M'
+Check for some files size...
+    -rwxr-xr-x    1 root     root        144885 Jan 23  2017 /home/hd1/test/http/serverJ
+    -rwxr-xr-x    1 root     root        144912 Jan 23  2017 /home/hd1/test/http/serverM
+    -rwxr-xr-x    1 root     root        121932 Jan 23  2017 /home/hd1/test/rtspsvrI
+    -rwxr-xr-x    1 root     root         39572 Jan 23  2017 /home/hd1/test/rtspsvrK
+    -rwxr-xr-x    1 root     root         39580 Jan 23  2017 /home/hd1/test/rtspsvrM
+The blue led is currently blinking
+Debug mode = no
+Check for wifi configuration file...*
+/home/wpa_supplicant.conf
+Start wifi configuration...
+Display /home folder...
+. .. 3518 704 RT2870STA.dat bcm bindkey_fail.g726 ca.crt cert ch0.h264 ch1.h264 ch2.h264 ch3.h264 checkdisk cloud cloudAPI connectting.g726 cpld_periph.ko cpld_wdg.ko crcCheck crypt_file curl debuger detect_ver dhcpcd dhcpcd.conf dispatch download_fail.g726 downloading.g726 dumpmmap equip_test.sh exfile.sh exnet fappend.sh fb4 fdisk.input flash_eraseall forbidden.g726 format fsck.fat fsckcmd gb2312_16x16.bin gb2312_32x32.bin gb2312_8x8.bin getLoadFile getLoadFileMi gethwplatform gethwplatform_h10 gethwplatform_z10 goolink hd1 hd2 hd3 hd4 hi_peripheral_load hight_1555.bmp hirtc.ko hostapd.conf iap_auth.ko init.sh iso8859-1-16x32.bin iso8859-1-4x8.bin iso8859-1-8x16.bin jrview judge_uid killapp.sh killapp_doreset.sh killapp_without_cloud.sh led_ctl libusr log_server low_1555.bmp mem_alloc mkdosfs mkfs.fat mmap_tmpfs monitor_dump monitor_wifi motion_detect_record mp4record mt7601Usta.ko mtdram.ko mtprealloc7601Usta.ko mysystem p2p_tnp p2pserver peripheral productioninfoget.sh productioninfoset.sh pwdwrong.g726 rb.sh rbhook rcfg record_event recv.726 reset.g726 rmm rtc_pcf8563.ko runtest scanok.g726 script sd sendMq start_wait.g726 success.g726 support_2d.g726 timeout.g726 tmpfs udhcpd.conf ui.conf_bak update update.sh updatefile.sh updating updating.g726 usb version wait.g726 wait_scan.g726 watch_process web welcome.g726 wifi_connected.g726 wp_cmd wpa_cli wpa_supplicant wpa_supplicant.conf
+Successfully initialized wpa_supplicant rfkill: Cannot open RFKILL control device ctrl_iface exists and seems to be in use - cannot override it Delete '/var/run/wpa_supplicant/ra0' manually if it is not used anymore Failed to initialize control interface '/var/run/wpa_supplicant'. You may have another wpa_supplicant process already running or the file was left by an unclean termination of wpa_supplicant in which case you will need to manually remove this file before starting wpa_supplicant again.
+lo Link encap:Local Loopback inet addr:127.0.0.1 Mask:255.0.0.0 inet6 addr: ::1/128 Scope:Host UP LOOPBACK RUNNING MTU:16436 Metric:1 RX packets:0 errors:0 dropped:0 overruns:0 frame:0 TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 collisions:0 txqueuelen:0 RX bytes:0 (0.0 B) TX bytes:0 (0.0 B)
+
+
+. .. .udev acodec adec aenc ai alarm ao console cpld_periph cpu_dma_latency full fuse grp hd hd1 hi_i2c hi_rtc hi_tde isp_dev ive kmsg logmpp loop0 loop1 loop2 loop3 loop4 loop5 loop6 loop7 mem mice mmcblk0 mmcblk0p1 mmz_userdev mqueue mtd0 mtd0ro mtd1 mtd1ro mtd2 mtd2ro mtd3 mtd3ro mtd4 mtd4ro mtd5 mtd5ro mtd6 mtd6ro mtdblock0 mtdblock1 mtdblock2 mtdblock3 mtdblock4 mtdblock5 mtdblock6 network_latency network_throughput null psaux ptmx pts pwm ram0 ram1 ram10 ram11 ram12 ram13 ram14 ram15 ram2 ram3 ram4 ram5 ram6 ram7 ram8 ram9 random rgn romblock0 romblock1 romblock2 romblock3 romblock4 romblock5 romblock6 ssp sys tty tty0 tty1 tty10 tty11 tty12 tty13 tty14 tty15 tty16 tty17 tty18 tty19 tty2 tty20 tty21 tty22 tty23 tty24 tty25 tty26 tty27 tty28 tty29 tty3 tty30 tty31 tty32 tty33 tty34 tty35 tty36 tty37 tty38 tty39 tty4 tty40 tty41 tty42 tty43 tty44 tty45 tty46 tty47 tty48 tty49 tty5 tty50 tty51 tty52 tty53 tty54 tty55 tty56 tty57 tty58 tty59 tty6 tty60 tty61 tty62 tty63 tty7 tty8 tty9 ttyAMA0 ttyAMA1 ttyS000 uinput urandom usbdev1.1 usbdev1.2 usbdev2.1 usbmon0 usbmon1 usbmon2 vb vcs vcs1 vcsa vcsa1 vda venc vi vpss watchdog zero
+Status for wifi configuration=0  (0 is ok)
+Wifi configuration answer: 
+Do network configuration 1/2 (ip and gateway)
+Done
+Configuration is :
+    lo        Link encap:Local Loopback  
+              inet addr:127.0.0.1  Mask:255.0.0.0
+              inet6 addr: ::1/128 Scope:Host
+              UP LOOPBACK RUNNING  MTU:16436  Metric:1
+              RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+              TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+              collisions:0 txqueuelen:0 
+              RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+    
+    ra0       Link encap:Ethernet  HWaddr B0:D5:9D:26:BD:DB  
+              inet addr:172.16.100.201  Bcast:172.16.100.255  Mask:255.255.255.0
+              inet6 addr: fe80::b2d5:9dff:fe26:bddb/64 Scope:Link
+              UP BROADCAST MULTICAST  MTU:1500  Metric:1
+              RX packets:819 errors:0 dropped:0 overruns:0 frame:0
+              TX packets:14 errors:0 dropped:0 overruns:0 carrier:0
+              collisions:0 txqueuelen:1000 
+              RX bytes:172148 (168.1 KiB)  TX bytes:2604 (2.5 KiB)
+    
+Do network configuration 2/2 (DNS)
+Done
+Get time from a NTP server...
+But first, test the NTP server '0.uk.pool.ntp.org':
+PING 0.uk.pool.ntp.org (178.79.160.57): 56 data bytes
+
+--- 0.uk.pool.ntp.org ping statistics ---
+1 packets transmitted, 0 packets received, 100% packet loss
+Previous datetime is Thu Jan  1 00:00:39 GMT 1970
+Done
+New datetime is Thu Jan  1 00:00:39 GMT 1970
+Start blue led on
+Start ftp server...
+Check for ftp process : 
+ 1392 root      1716 S    tcpsvd -vE 0.0.0.0 21 ftpd -w /
+Start http server : serverM...
+Check for http server process : 
+ 1426 root      1408 S    ./serverM 80
+Start rtsp server : rtspsvrM...
+Check for rtsp process : 
+ 1531 root      2660 S <  ./rtspsvrM
+Processes after startup :
+  PID USER       VSZ STAT COMMAND
+    1 root      1708 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    4 root         0 SW   [kworker/0:0]
+    5 root         0 SW   [kworker/u:0]
+    6 root         0 SW   [rcu_kthread]
+    7 root         0 SW<  [khelper]
+    8 root         0 SW   [kworker/u:1]
+  143 root         0 SW   [sync_supers]
+  145 root         0 SW   [bdi-default]
+  146 root         0 SW<  [kintegrityd]
+  148 root         0 SW<  [kblockd]
+  161 root         0 SW   [khubd]
+  174 root         0 SW<  [cfg80211]
+  175 root         0 SW   [kworker/0:1]
+  257 root         0 SW<  [rpciod]
+  260 root         0 SW   [kswapd0]
+  314 root         0 SW   [fsnotify_mark]
+  322 root         0 SW<  [nfsiod]
+  331 root         0 SW<  [crypto]
+  405 root         0 SW   [mtdblock0]
+  410 root         0 SW   [mtdblock1]
+  415 root         0 SW   [mtdblock2]
+  420 root         0 SW   [mtdblock3]
+  425 root         0 SW   [mtdblock4]
+  430 root         0 SW   [mtdblock5]
+  435 root         0 SW   [mtdblock6]
+  438 root         0 SW   [romblock0]
+  441 root         0 SW   [romblock1]
+  444 root         0 SW   [romblock2]
+  447 root         0 SW   [romblock3]
+  450 root         0 SW   [romblock4]
+  453 root         0 SW   [romblock5]
+  456 root         0 SW   [romblock6]
+  591 root         0 SW<  [kpsmoused]
+  600 root         0 SW   [kworker/u:2]
+  616 root         0 SW   [mmcqd/0]
+  620 root         0 SWN  [jffs2_gcd_mtd4]
+  622 root      1712 S    /bin/sh /etc/init.d/rcS
+  636 root       872 S <  udevd --daemon
+  642 root      1704 S    /bin/sh /etc/init.d/S80network
+  656 root         0 SWN  [jffs2_gcd_mtd5]
+  657 root      1708 S    /bin/sh ./init.sh
+  664 root         0 SW   [flush-mtd-unmap]
+  675 root      1724 S    /bin/sh /home/hd1/test/equip_test.sh
+  677 root         0 SW   [flush-179:0]
+  682 root      1704 S    telnetd
+  686 root       984 S    /home/log_server
+  949 root         0 SW   [hidog]
+  987 root      1164 S    ./peripheral
+  988 root      1144 S <  ./dispatch
+  989 root      1060 S    ./exnet
+ 1126 root      3140 S    /home/wpa_supplicant -B -i ra0 -c /home/wpa_supplica
+ 1157 root         0 SW   [kworker/0:2]
+ 1184 root         0 SW   [RtmpTimerTask]
+ 1185 root         0 SW   [RtmpMlmeTask]
+ 1186 root         0 SW   [RtmpCmdQTask]
+ 1187 root         0 SW   [RtmpWscTask]
+ 1353 root      1708 S    ntpd -q -p 0.uk.pool.ntp.org
+ 1392 root      1716 S    tcpsvd -vE 0.0.0.0 21 ftpd -w /
+ 1426 root      1408 S    ./serverM 80
+ 1444 root      3360 S    ./record_event
+ 1445 root     14732 S    ./mp4record 60
+ 1475 root      1716 S    /usr/sbin/crond -b
+ 1505 root       904 S    /home/led_ctl -boff -bon
+ 1526 root     94460 S    ./rmm
+ 1531 root     27252 S N  ./rtspsvrM
+ 1631 root      1708 R    ps
+Storage status :
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 3.5M      2.7M    852.0K  76% /
+tmpfs                    17.2M     16.0K     17.2M   0% /dev
+/dev/mtdblock5            8.9M      8.1M    800.0K  91% /home
+tmpfs                    32.0M     44.0K     32.0M   0% /tmp
+/dev/hd1                 29.8G     38.8M     29.8G   0% /tmp/hd1
+tmpfs                   512.0K     16.0K    496.0K   3% /home/mmap_tmpfs
+tmpfs                    16.0M         0     16.0M   0% /home/tmpfs
+tmpfs                    16.0M      3.0M     13.0M  19% /home/jrview
+/dev/hd1                 29.8G     38.8M     29.8G   0% /tmp/hd1/test/http/record
